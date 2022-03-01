@@ -1,0 +1,31 @@
+h1, h2, h3, p, a{
+  color: #f1356d !important;
+  font-family: 'Hubballi';
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: aliceblue;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+.nav > h1{
+  align-items: center;
+}
+.links{
+  display: flex;
+  align-items: center;
+}
+.links > a{
+  background-color: white;
+  padding: 7px;
+  margin: auto 8px;
+  border-radius: 8px;
+}
+.links > a:hover{
+  background-color: aqua;
+  cursor: pointer;
+}
