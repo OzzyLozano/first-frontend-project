@@ -1,16 +1,19 @@
-h1, h2, h3, p, a{
+h1, h2, h3, h4, p, a{
   color: #f1356d !important;
   font-family: 'Hubballi';
 }
+.nav-bg{
+  background-color: aliceblue;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
 .nav{
   display: flex;
-  justify-content: space-between;
   padding: 15px;
-  background-color: aliceblue;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-  max-width: 720px;
   margin: 0 auto;
+  text-align: center;
+  justify-content: space-around;
+  max-width: 720px;
 }
 .nav > h1{
   align-items: center;
@@ -21,11 +24,17 @@ h1, h2, h3, p, a{
 }
 .links > a{
   background-color: white;
-  padding: 7px;
+  padding: 6px 10px;
   margin: auto 8px;
   border-radius: 8px;
 }
 .links > a:hover{
   background-color: aqua;
+  transition: .5s;
   cursor: pointer;
+}
+.content{
+  max-width: 760px;
+  margin: 25px auto;
+  padding: 0 3px 0 5px;
 }
