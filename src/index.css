@@ -2,6 +2,8 @@ h1, h2, h3, h4, p, a{
   color: #f1356d !important;
   font-family: 'Hubballi';
 }
+p{ font-size: 20px; }
+.small-p{ font-size: 16px; }
 .nav-bg{
   background-color: aliceblue;
   border-bottom-left-radius: 10px;
@@ -35,6 +37,16 @@ h1, h2, h3, h4, p, a{
 }
 .content{
   max-width: 760px;
-  margin: 25px auto;
+  margin: 25px auto 120px auto;
   padding: 0 3px 0 5px;
+}
+footer{
+  position: fixed;
+  background-color: aliceblue;
+  height: 120px;
+  width: 100%;
+  bottom: 0;
+}
+footer > a:hover{
+  cursor: pointer;
 }
