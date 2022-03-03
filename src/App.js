@@ -10,7 +10,7 @@ function App() {
         <Navbar />
         <div className="content">
           <Routes>
-            <Route exact path='/' element={<Home />} />
+            <Route exact path='/my-first-frontend-project/' element={<Home />} />
           </Routes>
         </div>
         <Footer />
